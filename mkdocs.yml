@@ -1,4 +1,6 @@
 site_name: Cirrus Docs
 repo_url: https://github.com/vfyjxf/CirrusDocs
+site_url: ""
+use_directory_urls: false
 theme:
   name: material

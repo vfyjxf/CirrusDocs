@@ -4,13 +4,13 @@
 
 但如果你是用IDEA作为开发工具，你还有另一个选择，就是使用IDEA作为构建工具（即 intellj gradle）。
 
-## intellj gradle的优势:
+## IntelliJ gradle的优势:
 
 - 更快的构建速度
 - 更简单的代理设置，你只需要在idea配置好代理设置就可以给gradle挂上代理
 - hotswap（热重载） 更快
 
-<big> 注意! loom(Fabric loom/Arch loom等)不支持使用intellj gradle <big>
+**注意! loom(Fabric loom/Arch loom等)不支持使用IntelliJ gradle**
 
 ## 用法
 
