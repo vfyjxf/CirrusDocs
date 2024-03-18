@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="../1%20%E4%BB%8B%E7%BB%8D/">
+        <link rel="prev" href="4%20%E9%85%8D%E7%BD%AE%E7%83%AD%E9%87%8D%E8%BD%BD.html">
       
       
-        <link rel="next" href="../3%20%E9%80%89%E6%8B%A9%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/">
+        <link rel="next" href="6%20IDE%E6%8F%92%E4%BB%B6.html">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
-        <title>使用IDEA构建项目 - Cirrus Docs</title>
+        <title>Gradle插件 - Cirrus Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#idea" class="md-skip">
+        <a href="#gradle" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Cirrus Docs" class="md-header__button md-logo" aria-label="Cirrus Docs" data-md-component="logo">
+    <a href="../index.html" title="Cirrus Docs" class="md-header__button md-logo" aria-label="Cirrus Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              使用IDEA构建项目
+              Gradle插件
             
           </span>
         </div>
@@ -185,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Cirrus Docs" class="md-nav__button md-logo" aria-label="Cirrus Docs" data-md-component="logo">
+    <a href="../index.html" title="Cirrus Docs" class="md-nav__button md-logo" aria-label="Cirrus Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -215,7 +215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../0%20%E7%AE%80%E4%BB%8B/" class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -272,11 +272,74 @@
   
   
     <li class="md-nav__item">
-      <a href="../1%20%E4%BB%8B%E7%BB%8D/" class="md-nav__link">
+      <a href="1%20%E4%BB%8B%E7%BB%8D.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     介绍
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2%20%E4%BD%BF%E7%94%A8IDEA%E6%9E%84%E5%BB%BA%E9%A1%B9%E7%9B%AE.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    使用IDEA构建项目
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="3%20%E9%80%89%E6%8B%A9%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    选择构建工具
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="4%20%E9%85%8D%E7%BD%AE%E7%83%AD%E9%87%8D%E8%BD%BD.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    配置热重载
   </span>
   
 
@@ -302,119 +365,7 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    使用IDEA构建项目
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    使用IDEA构建项目
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intellj-gradle" class="md-nav__link">
-    <span class="md-ellipsis">
-      intellj gradle的优势:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      用法
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../3%20%E9%80%89%E6%8B%A9%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    选择构建工具
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4%20%E9%85%8D%E7%BD%AE%E7%83%AD%E9%87%8D%E8%BD%BD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    配置热重载
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5%20Gradle%E6%8F%92%E4%BB%B6/" class="md-nav__link">
+      <a href="5%20Gradle%E6%8F%92%E4%BB%B6.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -423,6 +374,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -435,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../6%20IDE%E6%8F%92%E4%BB%B6/" class="md-nav__link">
+      <a href="6%20IDE%E6%8F%92%E4%BB%B6.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -476,32 +428,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intellj-gradle" class="md-nav__link">
-    <span class="md-ellipsis">
-      intellj gradle的优势:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      用法
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -518,22 +444,7 @@
   
 
 
-<h1 id="idea">使用IDEA构建项目</h1>
-<p>通常，你会使用gradle直接构建你的mod project。</p>
-<p>但如果你是用IDEA作为开发工具，你还有另一个选择，就是使用IDEA作为构建工具（即 intellj gradle）。</p>
-<h2 id="intellj-gradle">intellj gradle的优势:</h2>
-<ul>
-<li>更快的构建速度</li>
-<li>更简单的代理设置，你只需要在idea配置好代理设置就可以给gradle挂上代理</li>
-<li>hotswap（热重载） 更快</li>
-</ul>
-<p><big> 注意! loom(Fabric loom/Arch loom等)不支持使用intellj gradle <big></p>
-<h2 id="_1">用法</h2>
-<p>你只需要在 <code>文件 &gt; 设置 &gt; 构建、执行、部署 &gt; 构建工具 &gt; Gradle</code> 处，将下面两个选项：
-<img alt="Alt text" src="../../assets/images/build/build_setting_before.png" /></p>
-<p>改为：</p>
-<p><img alt="Alt text" src="../../assets/images/build/build_setting_after.png" /></p>
-<p>之后再在<code>文件 &gt; 设置 &gt; 外观与行为 &gt; 系统设置 &gt; HTTP代理</code> 处设置好代理就可以解决大部分toolchain的代理挂不上问题。</p>
+<h1 id="gradle">Gradle插件</h1>
 
 
 
@@ -580,10 +491,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
     
   </body>
