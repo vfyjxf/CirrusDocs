@@ -1,0 +1,4 @@
+site_name: Cirrus Docs
+repo_url: https://github.com/vfyjxf/CirrusDocs
+theme:
+  name: material
