@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand-1: #1976d2;
+  --vp-c-brand-2: #1565c0;
+  --vp-c-brand-3: #42a5f5;
+  --vp-c-brand-soft: #1976d21f;
+}
+
+.dark {
+  color-scheme: dark;
+  --vp-c-bg: #282c34;
+  --vp-c-bg-alt: #21252b;
+  --vp-c-bg-elv: #2c313a;
+  --vp-c-bg-soft: #21252b;
+  --vp-c-text-1: #d7dae0;
+  --vp-c-text-2: #abb2bf;
+  --vp-c-text-3: #7f8794;
+  --vp-c-divider: #abb2bf26;
+  --vp-c-brand-1: #61afef;
+  --vp-c-brand-2: #56b6c2;
+  --vp-c-brand-3: #98c379;
+  --vp-c-brand-soft: #61afef1f;
+  --vp-code-color: #abb2bf;
+  --vp-code-bg: #21252b;
+  --vp-code-block-bg: #21252b;
+  --vp-code-line-highlight-color: #e5c07b24;
+  --vp-code-line-number-color: #7f8794;
+  --vp-button-brand-text: #1d2026;
+  --vp-button-brand-bg: #61afef;
+  --vp-button-brand-hover-bg: #56b6c2;
+}

@@ -1,13 +1,12 @@
 # Cirrus Docs
----
 
-Cirrus主要是分享一些我在开发过程中遇到的难题解决思路与经验 ，整体来说比较偏向coremod这类。
+这是一个 VitePress 文档模板。
 
-实际上本文档更像是个技术分享博客的汇总。
+## 开始使用
 
+在 `docs/` 目录中添加 Markdown 文件，然后到 `docs/.vitepress/config.ts` 中更新导航和侧边栏。
 
-## 观前提示
-- 笔者的语文有亿点差，你可能会会见到奇怪的描述和语法错误。
-- 本文档要求你至少能自己搭建一个正常的mod环境。
-- 本文档只介绍Intellj IDEA相关的配套工具。
-
+```bash
+npm install
+npm run dev
+```
