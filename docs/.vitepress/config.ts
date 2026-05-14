@@ -5,6 +5,7 @@ export default withMermaid(defineConfig({
   lang: "zh-CN",
   title: "CirrusDocs",
   description: "Minecraft Mod 开发知识库",
+  base: '/CirrusDocs/',
   cleanUrls: false,
   ignoreDeadLinks: true,
   lastUpdated: true,
