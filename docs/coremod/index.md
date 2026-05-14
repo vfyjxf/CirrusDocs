@@ -1,6 +1,6 @@
 # CoreMod
 
-CoreMod 这个术语的确切来源已不可考，但按笔者理解：**那些在 Mod 加载非常早期阶段介入、并且拥有修改类字节码能力（Class Transform）的 Mod，统称为 CoreMod。** 
+CoreMod 是一类 API 的统称，其典型用途是进行 **ClassTransforming**（类字节码变换），加载时机早于游戏本身。广义上，任何使用这些 API 的 Mod 都可以视为 CoreMod——即使它只是为了获得更早的加载时机而非真正修改类。 
 
 它们不同于普通 Mod 通过事件或 API 做上层扩展，而是直接操作 Minecraft 的类文件本身——修改方法体、替换字段访问、注入新逻辑。正因为如此，CoreMod 的实现方式随 Minecraft 版本和模组平台的不同而变化极大。
 
