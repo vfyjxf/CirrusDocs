@@ -1,12 +1,12 @@
-# Cirrus Docs
+---
+layout: home
 
-这是一个 VitePress 文档模板。
-
-## 开始使用
-
-在 `docs/` 目录中添加 Markdown 文件，然后到 `docs/.vitepress/config.ts` 中更新导航和侧边栏。
-
-```bash
-npm install
-npm run dev
-```
+hero:
+  name: "CirrusDocs"
+  text: "Minecraft Mod 开发知识库"
+  tagline: 系统化梳理模组开发的各个方面
+  actions:
+    - theme: brand
+      text: 进入文档
+      link: /coremod/
+---

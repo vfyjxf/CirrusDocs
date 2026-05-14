@@ -28,3 +28,28 @@
   --vp-button-brand-bg: #61afef;
   --vp-button-brand-hover-bg: #56b6c2;
 }
+
+.guide-link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.guide-link a {
+  text-decoration: none;
+  color: var(--vp-c-brand-1);
+  transition: color 0.25s;
+}
+
+.guide-link a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+.guide-link .arrow {
+  color: var(--vp-c-text-3);
+  transition: transform 0.25s, color 0.25s;
+}
+
+.guide-link:hover .arrow {
+  transform: translateX(3px);
+  color: var(--vp-c-brand-1);
+}
